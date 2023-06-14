@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Normal_Order" >
+    <test name="HappyScenario" >
+        <classes>
+            <class name="mobileTest.LoginTest" />
+            <class name="mobileTest.NormalOrderTest" />
+        </classes>
+    </test>
+</suite>

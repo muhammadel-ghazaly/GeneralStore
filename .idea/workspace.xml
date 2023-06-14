@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="commit name" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2PvXZEXdT7CdVEuttq3uAgJvqqx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/ahmed/IdeaProjects/Agent_Dashboard"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ibrahim Salah\IdeaProjects\Agent_Dashboard\target" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/FoodOrderDelivery.xml">
+    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/AllOrders.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Shgardi_project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/AllOrders.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/FoodOrderDelivery.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Shgardi_project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/FoodOrderDelivery.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/NormalOrder.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Shgardi_project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/NormalOrder.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/Tesing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Shgardi_project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Tesing.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NormalOrderTest.normalOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Shgardi_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobileTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mobileTest" />
+      <option name="MAIN_CLASS_NAME" value="mobileTest.NormalOrderTest" />
+      <option name="METHOD_NAME" value="normalOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/FoodOrderDelivery.xml" />
+        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/NormalOrder.xml" />
+        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/Tesing.xml" />
+        <item itemvalue="TestNG.NormalOrderTest.normalOrder" />
+        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/AllOrders.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="" />
+      <created>1684338584143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684338584143</updated>
+    </task>
+    <task id="LOCAL-00001" summary="food order updates">
+      <created>1686647114143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686647114143</updated>
+    </task>
+    <task id="LOCAL-00002" summary="food order updates">
+      <created>1686729808467</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686729808467</updated>
+    </task>
+    <task id="LOCAL-00003" summary="food order updates">
+      <created>1686748464490</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686748464490</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit name">
+      <created>1686750250088</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686750250088</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="food order updates" />
+    <MESSAGE value="commit name" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit name" />
+  </component>
+</project>
