@@ -26,18 +26,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ahmed/IdeaProjects/Agent_Dashboard"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ibrahim Salah\IdeaProjects\Agent_Dashboard\target" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/FoodOrderDelivery.xml">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/AllOrders.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Shgardi_project" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/AllOrders.xml" />

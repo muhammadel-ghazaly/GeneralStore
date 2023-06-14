@@ -2,10 +2,7 @@ package mobileTest;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
-import mobilePage.CartScreenPage;
-import mobilePage.CheckoutScreenPage;
-import mobilePage.HomePage;
-import mobilePage.StoreScreenPage;
+import mobilePage.*;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -17,6 +14,7 @@ public class FoodOrderDeliveryTest extends MobileTestBase{
     StoreScreenPage storeScreenPage;
     CartScreenPage cartScreenPage;
     CheckoutScreenPage checkoutScreenPage;
+    TrackOrderPage trackOrderPage;
     JavascriptExecutor js;
     public void scrollDown() {
         js = (JavascriptExecutor) driver;
@@ -31,6 +29,7 @@ public class FoodOrderDeliveryTest extends MobileTestBase{
         storeScreenPage = new StoreScreenPage((AppiumDriver<MobileElement>) driver);
         cartScreenPage = new CartScreenPage((AppiumDriver<MobileElement>) driver);
         checkoutScreenPage = new CheckoutScreenPage((AppiumDriver<MobileElement>) driver);
+        trackOrderPage = new TrackOrderPage((AppiumDriver<MobileElement>) driver);
         homePage.clickSearchBar();
         homePage.enterPickUpLocation("Sau");
         driver.manage().timeouts().implicitlyWait(20000, TimeUnit.MILLISECONDS);
@@ -44,7 +43,9 @@ public class FoodOrderDeliveryTest extends MobileTestBase{
         cartScreenPage.clickCheckout();
         Thread.sleep(3000);
         checkoutScreenPage.checkCashPaymentMethod();
-    checkoutScreenPage.clickPlaceOrder();
+        checkoutScreenPage.clickPlaceOrder();
+        trackOrderPage.getOrderNumber();
+
 
 
 
