@@ -1,5 +1,8 @@
 package webPage;
 
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import mobilePage.TrackOrderPage;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -10,6 +13,8 @@ public class allOrdersPage extends WebPageBase {
     public allOrdersPage(WebDriver driver) {
         super(driver);
     }
+
+
 
     @FindBy(xpath = "/html/body/app-root/section/div/app-list/div[1]/div[2]/button[2]/span[1]")
     public WebElement advancedSearchBt;
@@ -38,6 +43,9 @@ public class allOrdersPage extends WebPageBase {
     @FindBy (xpath = "/html/body/app-root/section/div/app-order-details/div[2]/div/mat-card/div[3]/div[1]/ul/li[4]")
     public WebElement orderType;
 
+    @FindBy (xpath = "/html/body/app-root/section/div/app-list/div[2]/div/mat-card/form/div[1]/mat-form-field[1]/div/div[1]/div/input")
+    public WebElement orderNumberTxt;
+
 
 
 
@@ -64,12 +72,13 @@ public class allOrdersPage extends WebPageBase {
 
     public void uncheckDelivering (){
         deliveringChBox.click();
+        deliveredChBox.sendKeys(Keys.ESCAPE);
 
     }
 
     public void checkDelivered (){
         deliveredChBox.click();
-        deliveredChBox.sendKeys(Keys.ESCAPE);
+
 
     }
 
@@ -84,6 +93,13 @@ public class allOrdersPage extends WebPageBase {
     public void openOrderDetails () throws InterruptedException {
         Thread.sleep(3000);
         detailsView.click();
+
+    }
+
+    public void setOrderNumber (){
+        orderNumberTxt.click();
+        TrackOrderPage trackOrderPage = null;
+        orderNumberTxt.sendKeys(trackOrderPage.OrderNumber);
 
     }
 

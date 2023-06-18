@@ -4,6 +4,9 @@
         <classes>
             <class name="mobileTest.LoginTest" />
             <class name="mobileTest.FoodOrderDeliveryTest" />
+            <class name="webTest.loginTest" />
+            <class name="webTest.homeTest" />
+            <class name="webTest.allOrdersTest" />
         </classes>
     </test>
 </suite>

@@ -1,9 +1,13 @@
 package mobileTest;
 
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.offset.PointOption;
 import mobilePage.*;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -15,10 +19,11 @@ public class FoodOrderDeliveryTest extends MobileTestBase{
     CartScreenPage cartScreenPage;
     CheckoutScreenPage checkoutScreenPage;
     TrackOrderPage trackOrderPage;
-    JavascriptExecutor js;
-    public void scrollDown() {
-        js = (JavascriptExecutor) driver;
-        js.executeScript("scrollBy(0,200)");
+
+
+    public void scrollDown (){
+        driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Total Amount\").instance(0))").click();
+
     }
 
 
@@ -31,7 +36,7 @@ public class FoodOrderDeliveryTest extends MobileTestBase{
         checkoutScreenPage = new CheckoutScreenPage((AppiumDriver<MobileElement>) driver);
         trackOrderPage = new TrackOrderPage((AppiumDriver<MobileElement>) driver);
         homePage.clickSearchBar();
-        homePage.enterPickUpLocation("Sau");
+        homePage.enterPickUpLocation("Dina");
         driver.manage().timeouts().implicitlyWait(20000, TimeUnit.MILLISECONDS);
         homePage.selectFirstStore();
         driver.manage().timeouts().implicitlyWait(20000, TimeUnit.MILLISECONDS);
@@ -43,6 +48,11 @@ public class FoodOrderDeliveryTest extends MobileTestBase{
         cartScreenPage.clickCheckout();
         Thread.sleep(3000);
         checkoutScreenPage.checkCashPaymentMethod();
+        Thread.sleep(5000);
+        scrollDown();
+        Thread.sleep(3000);
+        checkoutScreenPage.getOrderPrice();
+        Thread.sleep(2000);
         checkoutScreenPage.clickPlaceOrder();
         trackOrderPage.getOrderNumber();
 

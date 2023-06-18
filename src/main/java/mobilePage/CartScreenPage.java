@@ -24,6 +24,7 @@ public class CartScreenPage extends MobilePageBase{
 
     public void getTotalPrice (){
          TotalPrice = totalPrice.getText();
+        System.out.println(TotalPrice);
 
     }
 }

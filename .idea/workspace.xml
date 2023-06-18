@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="commit name" />
+    <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="commit 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoodOrderDelivery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FoodOrderDelivery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/CartScreenPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/CartScreenPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutScreenPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutScreenPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/TrackOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/TrackOrderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webPage/allOrdersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webPage/allOrdersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webPage/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webPage/homePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/FoodOrderDeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/FoodOrderDeliveryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTest/allOrdersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTest/allOrdersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/CartScreenPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/CartScreenPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/CheckoutScreenPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/CheckoutScreenPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/TrackOrderPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/TrackOrderPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webPage/allOrdersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webPage/allOrdersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webPage/homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webPage/homePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/FoodOrderDeliveryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/FoodOrderDeliveryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +43,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ibrahim Salah\IdeaProjects\Agent_Dashboard\target" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/FoodOrderDelivery.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/FoodOrderDelivery.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -39,16 +61,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/AllOrders.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Shgardi_project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/AllOrders.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,6 +95,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/FoodOrderDelivery.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Agent_Dashboard" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/FoodOrderDelivery.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NormalOrderTest.normalOrder" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Shgardi_project" />
       <extension name="coverage">
@@ -103,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/FoodOrderDelivery.xml" />
         <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/FoodOrderDelivery.xml" />
         <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/NormalOrder.xml" />
         <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/Tesing.xml" />
         <item itemvalue="TestNG.NormalOrderTest.normalOrder" />
-        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/AllOrders.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686750250088</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit 2">
+      <created>1686753372467</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686753372468</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,10 +190,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="food order updates" />
     <MESSAGE value="commit name" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit name" />
+    <MESSAGE value="commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
   </component>
 </project>

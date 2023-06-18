@@ -2,7 +2,10 @@ package mobilePage;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.touch.offset.PointOption;
+import org.openqa.selenium.interactions.Actions;
 
 public class CheckoutScreenPage extends MobilePageBase{
     public String OrderPrice;
@@ -33,6 +36,9 @@ public class CheckoutScreenPage extends MobilePageBase{
 
     public void getOrderPrice (){
         OrderPrice = orderPrice.getText();
+        System.out.println(OrderPrice);
 
     }
+
+
 }

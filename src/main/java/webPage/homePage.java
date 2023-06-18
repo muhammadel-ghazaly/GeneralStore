@@ -13,10 +13,10 @@ public class homePage extends WebPageBase {
     @FindBy (xpath = "/html/body/app-root/app-menu/div")
     public WebElement sideMenu;
 
-    @FindBy (xpath = "/html/body/app-root/app-menu/div/ul/li[4]/div/a/span")
+    @FindBy (xpath = "/html/body/app-root/app-menu/div/ul/li[5]/div/a/span")
     public WebElement orders;
 
-    @FindBy (xpath = "/html/body/app-root/app-menu/div/ul/li[4]/ul/li[3]/a")
+    @FindBy (xpath = "/html/body/app-root/app-menu/div/ul/li[5]/ul/li[3]/a")
     public WebElement allOrders;
 
 
