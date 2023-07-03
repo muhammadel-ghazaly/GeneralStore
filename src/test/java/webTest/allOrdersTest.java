@@ -6,19 +6,17 @@ import mobilePage.TrackOrderPage;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 import webPage.allOrdersPage;
-
+import utilities.Helper;
 import java.util.concurrent.TimeUnit;
 
 public class allOrdersTest extends WebTestBase {
 
     allOrdersPage allOrdersPage;
+    Helper helper;
     JavascriptExecutor js;
 
 
-    public void scrollDown() {
-        js = (JavascriptExecutor) driver;
-        js.executeScript("scrollBy(0,500)");
-    }
+
 
 @Test
     public void openOrderDeatails () throws InterruptedException {
@@ -33,7 +31,7 @@ public class allOrdersTest extends WebTestBase {
         allOrdersPage.uncheckDelivering();
         //allOrdersPage.checkDelivered();
         allOrdersPage.clickSearch();
-        scrollDown();
+        helper.scrollDown();;
         allOrdersPage.openOrderDetails();
         
 

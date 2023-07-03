@@ -1,13 +1,8 @@
 package mobileTest;
 
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileDriver;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.TouchAction;
-import io.appium.java_client.touch.offset.PointOption;
 import mobilePage.*;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -17,8 +12,9 @@ public class FoodOrderDeliveryTest extends MobileTestBase{
     HomePage homePage;
     StoreScreenPage storeScreenPage;
     CartScreenPage cartScreenPage;
-    CheckoutScreenPage checkoutScreenPage;
+    CheckoutPage checkoutPage;
     TrackOrderPage trackOrderPage;
+
 
 
     public void scrollDown (){
@@ -33,7 +29,7 @@ public class FoodOrderDeliveryTest extends MobileTestBase{
         homePage = new HomePage((AppiumDriver<MobileElement>) driver);
         storeScreenPage = new StoreScreenPage((AppiumDriver<MobileElement>) driver);
         cartScreenPage = new CartScreenPage((AppiumDriver<MobileElement>) driver);
-        checkoutScreenPage = new CheckoutScreenPage((AppiumDriver<MobileElement>) driver);
+        checkoutPage = new CheckoutPage((AppiumDriver<MobileElement>) driver);
         trackOrderPage = new TrackOrderPage((AppiumDriver<MobileElement>) driver);
         homePage.clickSearchBar();
         homePage.enterPickUpLocation("Dina");
@@ -47,14 +43,15 @@ public class FoodOrderDeliveryTest extends MobileTestBase{
         cartScreenPage.getTotalPrice();
         cartScreenPage.clickCheckout();
         Thread.sleep(3000);
-        checkoutScreenPage.checkCashPaymentMethod();
+        checkoutPage.checkCashPaymentMethod();
         Thread.sleep(5000);
         scrollDown();
         Thread.sleep(3000);
-        checkoutScreenPage.getOrderPrice();
+        checkoutPage.getOrderPrice();
         Thread.sleep(2000);
-        checkoutScreenPage.clickPlaceOrder();
+        checkoutPage.clickPlaceOrder();
         trackOrderPage.getOrderNumber();
+        Assert.assertEquals(cartScreenPage.TotalPrice,checkoutPage.OrderPrice);
 
 
 

@@ -7,12 +7,14 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.interactions.Actions;
 
-public class CheckoutScreenPage extends MobilePageBase{
+public class CheckoutPage extends MobilePageBase{
     public String OrderPrice;
-    public CheckoutScreenPage(AppiumDriver<MobileElement> driver) {
+    public String DeliveryFee;
+    public String DeliveryFeeBeforeDiscount;
+    public CheckoutPage(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
-    @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout[4]/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView")
+    @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout[4]/android.view.ViewGroup/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]")
     private MobileElement cashCheckBtn;
 
 
@@ -21,6 +23,13 @@ public class CheckoutScreenPage extends MobilePageBase{
 
     @AndroidFindBy (id = "com.mnasat.nashmi:id/tv_price_before_discount")
     public MobileElement orderPrice;
+
+    @AndroidFindBy (id = "com.mnasat.nashmi:id/tvDeliveryFee")
+    private MobileElement deliveryFee;
+
+    @AndroidFindBy (id = "com.mnasat.nashmi:id/tv_delivery_before_discount")
+    private MobileElement deliveryFeeBeforeDiscount;
+
 
     //operations
 
@@ -39,6 +48,20 @@ public class CheckoutScreenPage extends MobilePageBase{
         System.out.println(OrderPrice);
 
     }
+
+    public void getDeliveryFee (){
+        DeliveryFee = deliveryFee.getText();
+        System.out.println(DeliveryFee);
+
+    }
+
+    public void getDeliveryFeeBeforeDiscount (){
+        DeliveryFeeBeforeDiscount = deliveryFeeBeforeDiscount.getText();
+        System.out.println(DeliveryFeeBeforeDiscount);
+
+    }
+
+
 
 
 }

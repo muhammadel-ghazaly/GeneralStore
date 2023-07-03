@@ -13,6 +13,9 @@ public class OrderDetailsPage extends MobilePageBase{
     @AndroidFindBy (id = "com.mnasat.nashmi:id/btnAddMain")
     private MobileElement addItemBt;
 
+    @AndroidFindBy (id = "com.mnasat.nashmi:id/btnAddExtra")
+    private MobileElement addExtraItemBtn;
+
     @AndroidFindBy (id = "com.mnasat.nashmi:id/etName")
     private MobileElement itemNameTxt;
 
@@ -21,6 +24,9 @@ public class OrderDetailsPage extends MobilePageBase{
 
     @AndroidFindBy (id = "com.mnasat.nashmi:id/imageView")
     private MobileElement addImageBt;
+
+    @AndroidFindBy (id = "com.android.permissioncontroller:id/permission_allow_button")
+    private MobileElement allowBt;
 
     @AndroidFindBy (id = "com.mnasat.nashmi:id/view_gallery")
     private MobileElement galleryBt;
@@ -86,8 +92,10 @@ public class OrderDetailsPage extends MobilePageBase{
 
     }
 
-    public void allowGalleryAccess (){
-        galleryBt.click();
+
+
+    public void allowAccessPhotos(){
+        allowBt.click();
 
     }
 
@@ -108,6 +116,11 @@ public class OrderDetailsPage extends MobilePageBase{
 
     public void clickSubmit (){
         submitBt.click();
+
+    }
+
+    public void clickAddOnTheWayItem (){
+        addExtraItemBtn.click();
 
     }
 }

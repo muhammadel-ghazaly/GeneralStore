@@ -6,20 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="f1ed589e-5c2f-4feb-adba-49dd932038b7" name="Changes" comment="commit 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FoodOrderDelivery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FoodOrderDelivery.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/CartScreenPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/CartScreenPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutScreenPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutScreenPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/TrackOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/TrackOrderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webPage/allOrdersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webPage/allOrdersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webPage/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webPage/homePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutScreenPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobilePage/OrderDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobilePage/OrderDetailsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/FoodOrderDeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/FoodOrderDeliveryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobileTest/NormalOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobileTest/NormalOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/webTest/allOrdersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTest/allOrdersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/CartScreenPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/CartScreenPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/CheckoutScreenPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/CheckoutScreenPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/TrackOrderPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/TrackOrderPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webPage/allOrdersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webPage/allOrdersPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webPage/homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webPage/homePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/CheckoutScreenPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mobilePage/OrderDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobilePage/OrderDetailsPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/FoodOrderDeliveryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/FoodOrderDeliveryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mobileTest/NormalOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobileTest/NormalOrderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Helper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webTest/allOrdersTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +46,17 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ibrahim Salah\IdeaProjects\Agent_Dashboard\target" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/FoodOrderDelivery.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/NormalOrder.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,16 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/Tesing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Shgardi_project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Tesing.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/FoodOrderDelivery.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Agent_Dashboard" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/FoodOrderDelivery.xml" />
@@ -105,18 +98,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NormalOrderTest.normalOrder" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Shgardi_project" />
+    <configuration name="C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/NormalOrder.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Agent_Dashboard" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/NormalOrder.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NormalOrderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Agent_Dashboard" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mobileTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/NormalOrder.xml" />
       <option name="PACKAGE_NAME" value="mobileTest" />
       <option name="MAIN_CLASS_NAME" value="mobileTest.NormalOrderTest" />
-      <option name="METHOD_NAME" value="normalOrder" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -125,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/NormalOrder.xml" />
+        <item itemvalue="TestNG.NormalOrderTest" />
         <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Sh_Test/FoodOrderDelivery.xml" />
         <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/FoodOrderDelivery.xml" />
         <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/NormalOrder.xml" />
-        <item itemvalue="TestNG.C:/Users/Ibrahim Salah/IdeaProjects/Agent_Dashboard/Tesing.xml" />
-        <item itemvalue="TestNG.NormalOrderTest.normalOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686753372468</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit 2">
+      <created>1687098360860</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687098360860</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,5 +207,9 @@
     <MESSAGE value="commit name" />
     <MESSAGE value="commit 2" />
     <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

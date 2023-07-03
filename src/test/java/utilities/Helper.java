@@ -1,5 +1,6 @@
 package utilities;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -8,8 +9,31 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-public class Helper {
+import static mobileTest.MobileTestBase.driver;
 
+public class Helper {
+    private static Helper scrollDown = null;
+    private JavascriptExecutor js;
+
+    public static synchronized Helper getInstance()
+    {
+        if (scrollDown == null)
+            scrollDown = new Helper();
+
+        return scrollDown;
+    }
+
+
+
+    public void scrollDown() {
+        js.executeScript("scrollBy(0,500)");
+    }
+
+
+
+    public void zoomOut() {
+        js.executeScript("document.body.style.zoom='70%'");
+    }
     
     // Method to take screen shoot when test case fail
     public static void caputreScreenShoot(WebDriver driver, String screenShootName) {
