@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="535b948c-fc30-42bd-9e85-757e2bbbe8b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/MobileTestBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/mobileTest/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/mobileTest/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/mobileTest/MobileTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/mobileTest/MobileTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/mobilePage/CartScreenPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/mobilePage/CartScreenPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/mobilePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/mobilePage/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/mobilePage/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/mobilePage/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/mobilePage/MobilePageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/mobilePage/MobilePageBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/mobilePage/OrderDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/mobilePage/OrderDetailsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/mobilePage/SplashPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/mobilePage/SplashPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/mobilePage/StoreScreenPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/mobilePage/StoreScreenPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/mobilePage/TrackOrderPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/mobilePage/TrackOrderPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/webPage/WebPageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/webPage/WebPageBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/webPage/allOrdersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/webPage/allOrdersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/webPage/homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/webPage/homePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/webPage/loginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/webPage/loginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/mobileTest/FoodOrderDeliveryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/mobileTest/FoodOrderDeliveryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/mobileTest/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/mobileTest/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/mobileTest/MobileTestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/mobileTest/MobileTestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/mobileTest/NormalOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/mobileTest/NormalOrderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/utilities/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/utilities/Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/webTest/WebTestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/webTest/WebTestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/webTest/allOrdersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/webTest/allOrdersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/webTest/homeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/webTest/homeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/webTest/loginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/webTest/loginTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2adoml89l30lfUgIIh4lbDc5QvA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Appium Project/Sh_Test/QCLeadKatalonAssessment/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  }
+}</component>
+  <component name="RunManager" selected="TestNG.OpenApp">
+    <configuration name="HomePage.HomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QCLeadKatalonAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobilePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mobilePage" />
+      <option name="MAIN_CLASS_NAME" value="mobilePage.HomePage" />
+      <option name="METHOD_NAME" value="HomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePage.lunchApp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QCLeadKatalonAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobilePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mobilePage" />
+      <option name="MAIN_CLASS_NAME" value="mobilePage.HomePage" />
+      <option name="METHOD_NAME" value="lunchApp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePage.openCountrytList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QCLeadKatalonAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobilePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mobilePage" />
+      <option name="MAIN_CLASS_NAME" value="mobilePage.HomePage" />
+      <option name="METHOD_NAME" value="openCountrytList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenApp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QCLeadKatalonAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobileTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mobileTest" />
+      <option name="MAIN_CLASS_NAME" value="mobileTest.OpenApp" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenApp.OpenApp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QCLeadKatalonAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mobileTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mobileTest" />
+      <option name="MAIN_CLASS_NAME" value="mobileTest.OpenApp" />
+      <option name="METHOD_NAME" value="OpenApp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.OpenApp" />
+        <item itemvalue="TestNG.OpenApp.OpenApp" />
+        <item itemvalue="TestNG.HomePage.openCountrytList" />
+        <item itemvalue="TestNG.HomePage.HomePage" />
+        <item itemvalue="TestNG.HomePage.lunchApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="535b948c-fc30-42bd-9e85-757e2bbbe8b4" name="Changes" comment="" />
+      <created>1704657979131</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704657979131</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
